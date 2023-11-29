@@ -1,0 +1,20 @@
+﻿<Window x:Class="Presentation_Flowdocumentviewer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Presentation_Flowdocumentviewer"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <!--<RichTextBox>-->
+        <FlowDocumentPageViewer>
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget erat risus. Vivamus sem mauris, mollis nec tellus vitae, pulvinar dignissim odio.Vivamus sagittis lectus dolor, at sollicitudin velit maximus at. Suspendisse potenti. Fusce magna augue, venenatis at massa quis, porta commodo leo. Suspendisse auctor, felis at maximus consectetur, lorem magna sollicitudin velit, quis mattis sapien lorem vel arcu. In pellentesque pretium rutrum. Suspendisse in lobortis eros. Morbi et lacus ac orci ultricies rutrum id et arcu. Fusce tempor enim tempor, euismod tellus et, rutrum nisi. Sed dignissim odio tellus, et sagittis augue varius a. In lobortis, ex eget lacinia efficitur, justo dui mollis ante, a efficitur justo nulla vel turpis. Suspendisse varius tincidunt lobortis."/>
+                </Paragraph>
+            </FlowDocument>
+        </FlowDocumentPageViewer>
+        <!--</RichTextBox>-->
+    </Grid>
+</Window>
